@@ -1,3 +1,5 @@
+Proofpoint Threat Response and On-premise Active-Directory
+
 Disclaimer 
 ---
 These instructions and associated PowerShell script are provided “as is”.  Every effort was made to adhere to PowerShell best practices.  Please keep in mind, this is a “Script” and not an “Application”.  As such, logging is limited to script actions and assumes underlying PowerShell, Windows Authentication and associated modules/methods are configured and functioning correctly.
