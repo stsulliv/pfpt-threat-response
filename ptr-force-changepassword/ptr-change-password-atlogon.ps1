@@ -2,7 +2,9 @@
 
 $PathRoot = $PSScriptRoot
 
-function Get-Config ($PathRoot) {
+# function stores or loads script variables
+# see https://ugliscripts.com/storing-script-variables for details on Get-Variables
+function Get-Variables ($PathRoot) {
     
     if (!([System.IO.File]::Exists("$PathRoot\configuration.xml"))) {
     
@@ -32,7 +34,9 @@ function Get-Config ($PathRoot) {
     }
 }
 
-function Get-PtrKey ($PathRoot) {
+# function stores or loads a string securely
+# see https://ugliscripts.com/storing-secure-strings for details on Get-Secret 
+function Get-Secret ($PathRoot) {
     
     if (!([System.IO.File]::Exists("$PathRoot\threatresponse.cred"))) {
     
@@ -72,7 +76,7 @@ $PathLog | % {
 # simple filter when used puts on timestamp and logs message to file
 filter timestamp {"$(Get-Date -Format O):$_" | Add-Content $PathLog }  # set timestamp filter
 
-$Config = Get-Config $PathRoot
+$Config = Get-Variables $PathRoot
 
 # set Threat Response host
 $ptr_host = $Config.Host
@@ -83,7 +87,7 @@ $ptr_listid = $Config.ListId
 '[CONFIGURATION] Referencing PTR User List ID : ' + $ptr_listid | timestamp
 
 # set Threat Response Key
-$ptr_key = Get-PtrKey $PathRoot
+$ptr_key = Get-Secret $PathRoot
 '[CREDENTIAL] Threat Response API Key: ending in ...' + $ptr_key.Substring($ptr_key.Length - 5, 5) | timestamp
 
 # build GET URL
