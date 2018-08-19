@@ -1,0 +1,47 @@
+2018-08-15T20:22:16.2640483-04:00:---------- Initializing script Configuration, Key and Credential ----------
+2018-08-15T20:22:16.2953019-04:00:[CONFIGURATION] Connecting to PTR host: ptr.secureitquest.com
+2018-08-15T20:22:16.2953019-04:00:[CONFIGURATION] Referencing PTR User List ID : 6
+2018-08-15T20:22:16.3890493-04:00:[CREDENTIAL] Threat Response API Key: ending in ...3674ee6e
+2018-08-15T20:22:16.6234264-04:00:[RETURN] There is(are) 2 Member(s) of the the PTR User List ID: 6
+2018-08-15T20:22:16.6703002-04:00:[USER QUEUE] Number of members in PTR List: 2
+2018-08-15T20:22:16.6859236-04:00:[CREDENTIAL] Office 365 account: darth.vader@secureitquest.net
+2018-08-15T20:22:16.9202971-04:00:[CONNECTION] Establishing PS-Session with Exchange Online
+2018-08-15T20:22:23.0296612-04:00:[SUCCESS] Connected to Exchange Online as darth.vader@secureitquest.net
+2018-08-15T20:22:31.5608851-04:00:[CONNECTION] Establishing PS-Session with Exchange Online Protection (EOP)
+2018-08-15T20:23:56.4749518-04:00:[SUCCESS] Connected to Exchange Online Protection as darth.vader@secureitquest.net
+2018-08-15T20:24:00.5530679-04:00:[CONNECTION] Establishing connection with Azure Active Directory (AAD)
+2018-08-15T20:24:00.5686913-04:00:[SUCCESS] Connected to Azure Active Direcotry as darth.vader@secureitquest.net
+2018-08-15T20:24:02.4280748-04:00:[han.solo] ............. Starting Account Remediation .............
+2018-08-15T20:24:02.4436879-04:00:[han.solo] Skipped requiring password change. Update Configuration.xml to change behavior
+2018-08-15T20:24:02.4436879-04:00:[han.solo] Updating require strong password. Update Configuration.xml to change behavior
+2018-08-15T20:24:02.5999628-04:00:[han.solo] Updating enabling multi-factor authentication (MFA). Update Configuration.xml to change behavior
+2018-08-15T20:24:03.0843456-04:00:[han.solo] Skipped changing password. Update Configuration.xml to change behavior
+2018-08-15T20:24:03.0999360-04:00:[han.solo] Enabling mailbox auditing. Update Configuration.xml to change behavior
+2018-08-15T20:24:04.4593049-04:00:[han.solo] Removing mailbox delegates. Update Configuration.xml to change behavior
+2018-08-15T20:24:06.1311938-04:00:[han.solo] Disabling external mailbox forwarding rules. Update Configuration.xml to change behavior
+2018-08-15T20:24:07.2718001-04:00:[han.solo] Skipped removing external mailbox forwarding rules. Update Configuration.xml to change behavior
+2018-08-15T20:24:07.2718001-04:00:[han.solo] Disabling mailbox forwarding. Update Configuration.xml to change behavior
+2018-08-15T20:24:07.7249239-04:00:[han.solo] Skipped getting a mailbox audit. Update Configuration.xml to change behavior
+2018-08-15T20:24:07.7249239-04:00:[UPDATE LIST] Removing Member number 298 from PTR list 6
+2018-08-15T20:24:07.7405588-04:00:[SUCCESS] Member number 298 was removed from PTR list 6
+2018-08-15T20:24:07.7405588-04:00:[c.3po] ............. Starting Account Remediation .............
+2018-08-15T20:24:07.7405588-04:00:[c.3po] Skipped requiring password change. Update Configuration.xml to change behavior
+2018-08-15T20:24:07.7405588-04:00:[c.3po] Updating require strong password. Update Configuration.xml to change behavior
+2018-08-15T20:24:07.8655586-04:00:[c.3po] Updating enabling multi-factor authentication (MFA). Update Configuration.xml to change behavior
+2018-08-15T20:24:08.2718203-04:00:[c.3po] Skipped changing password. Update Configuration.xml to change behavior
+2018-08-15T20:24:08.2718203-04:00:[c.3po] Enabling mailbox auditing. Update Configuration.xml to change behavior
+2018-08-15T20:24:08.7249183-04:00:[c.3po] Removing mailbox delegates. Update Configuration.xml to change behavior
+2018-08-15T20:24:09.5530590-04:00:[c.3po] Disabling external mailbox forwarding rules. Update Configuration.xml to change behavior
+2018-08-15T20:24:11.9124382-04:00:[c.3po] Skipped removing external mailbox forwarding rules. Update Configuration.xml to change behavior
+2018-08-15T20:24:11.9124382-04:00:[c.3po] Disabling mailbox forwarding. Update Configuration.xml to change behavior
+2018-08-15T20:24:12.3499148-04:00:[c.3po] Skipped getting a mailbox audit. Update Configuration.xml to change behavior
+2018-08-15T20:24:12.3499148-04:00:[UPDATE LIST] Removing Member number 249 from PTR list 6
+2018-08-15T20:24:12.3499148-04:00:[SUCCESS] Member number 249 was removed from PTR list 6
+2018-08-15T20:24:12.3499148-04:00:[DISCONNECT] Removing PS-Session with Exchange Online
+2018-08-15T20:24:12.6155553-04:00:[DISCONNECT] Removing PS_Session with Exchange Online Portection (EOP)
+2018-08-15T20:24:12.6936749-04:00:[DISCONNECT] Exiting connection with Azure Active Directory (AAD)
+2018-08-15T20:28:30.3467754-04:00:---------- Initializing script Configuration, Key and Credential ----------
+2018-08-15T20:28:30.4405273-04:00:[CONFIGURATION] Connecting to PTR host: ptr.secureitquest.com
+2018-08-15T20:28:30.4561470-04:00:[CONFIGURATION] Referencing PTR User List ID : 6
+2018-08-15T20:28:30.5498915-04:00:[CREDENTIAL] Threat Response API Key: ending in ...3674ee6e
+2018-08-15T20:28:30.7061622-04:00:[STOP] There are no members in the PTR User List.  The script will now exit.
