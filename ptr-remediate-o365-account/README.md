@@ -15,13 +15,13 @@ To leverage Targeted Attack Protection (TAP), Threat Response Auto-pull (TRAP) a
 
 Available Remediation(s)
 ---
-Force User to change password at next logon
-Change the Account password
-Enable Strong Password
-Enable Multi-Factor Authentication
-Disable external email forwarding rules
-Delete external forwarding rules
-Remove Delegates
-Disable Delegates
-Enable mailbox auditing
-Disconnect User from Azure
+- Force User to change password at next logon
+- Change the Account password
+- Enable Strong Password
+- Enable Multi-Factor Authentication
+- Disable external email forwarding rules
+- Delete external forwarding rules
+- Remove Delegates
+- Disable Delegates
+- Enable mailbox auditing
+- Disconnect User from Azure
