@@ -1,3 +1,5 @@
+Update: please see the 'ptr-remediate-o365-account-mod' directory for current scripts.
+
 ptr-remediate-o365-account.ps1
 
 Problem Statement
