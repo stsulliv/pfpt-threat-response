@@ -1,0 +1,44 @@
+2018-08-25T11:36:03.7973473-04:00:---------- Initializing script Configuration, Key and Credential ----------
+2018-08-25T11:36:03.8129690-04:00:Connecting to PTR host: ptr.secureitquest.com
+2018-08-25T11:36:03.8129690-04:00:Referencing PTR User List ID : 6
+2018-08-25T11:36:03.8129690-04:00:Threat Response API Key: ending in ...3674ee6e
+2018-08-25T11:36:03.8129690-04:00:Using Office 365 account: darth.vader@example.com
+2018-08-25T11:36:03.8442205-04:00:There is(are) 1 Member(s) of the the PTR User List 6
+2018-08-25T11:36:03.8442205-04:00:Number of members in PTR List: 1
+2018-08-25T11:36:03.8442205-04:00:Establishing PS-Session with Exchange Online
+2018-08-25T11:36:12.9692704-04:00:tmp_4napanmq.wsl
+2018-08-25T11:36:12.9692704-04:00:Connected to Exchange Online as darth.vader@example.com
+2018-08-25T11:36:12.9692704-04:00:Establishing PS-Session with Exchange Online Protection (EOP)
+2018-08-25T11:36:20.0005358-04:00:tmp_x2k1qv0n.vml
+2018-08-25T11:36:20.0005358-04:00:Connected to Exchange Online Protection as darth.vader@example.com
+2018-08-25T11:36:20.0005358-04:00:Establishing connection with Microsoft Online (MSO)
+2018-08-25T11:36:21.5318115-04:00:Connected to Microsoft Online (MSO) as darth.vader@example.com
+2018-08-25T11:36:21.5318115-04:00:Establishing connection with Azure Active Directory (AAD)
+2018-08-25T11:36:22.1880443-04:00:Connected to Azure Active Directory as darth.vader@example.com
+2018-08-25T11:36:22.1880443-04:00:............. Starting Account Remediation of luke.skywalker .............
+2018-08-25T11:36:22.1880443-04:00:[SKIPPED] Requiring password change.
+2018-08-25T11:36:22.1880443-04:00:Requiring luke.skywalker@example.com to use a strong password.
+2018-08-25T11:36:22.3287051-04:00:luke.skywalker@example.com will be required to use a strong password.
+2018-08-25T11:36:22.3287051-04:00:Enabling multi-factor authentication for luke.skywalker@example.com.
+2018-08-25T11:36:22.4536962-04:00:Multi-factor authentication (MFA) enabled for luke.skywalker@example.com.
+2018-08-25T11:36:22.4692951-04:00:[SKIPPED] Changing password.
+2018-08-25T11:36:22.4692951-04:00:Enabling mailbox auditing for luke.skywalker@example.com.
+2018-08-25T11:36:23.5013777-04:00:Mailbox auditing enabled for luke.skywalker@example.com
+2018-08-25T11:36:23.5162418-04:00:Removing mailbox delegates for luke.skywalker@example.com.
+2018-08-25T11:36:24.7349412-04:00:Found 0 delegates for luke.skywalker@example.com
+2018-08-25T11:36:24.7349412-04:00:Disable external forward rules for luke.skywalker@example.com.
+2018-08-25T11:36:25.3443031-04:00:Found 0 external forward rules for luke.skywalker@example.com.
+2018-08-25T11:36:25.3443031-04:00:Disabled 0 external forward rules for luke.skywalker@example.com.
+2018-08-25T11:36:25.3443031-04:00:[SKIPPED] Removing external mailbox forwarding rules.
+2018-08-25T11:36:25.3443031-04:00:Disabling mailbox forward for luke.skywalker@example.com.
+2018-08-25T11:36:25.8911998-04:00:Disabled mailbox forward for luke.skywalker@example.com.
+2018-08-25T11:36:25.8911998-04:00:Revoking user logins for luke.skywalker@example.com.
+2018-08-25T11:36:26.2036852-04:00:Revoked user lgoins for luke.skywalker@example.com.
+2018-08-25T11:36:26.2036852-04:00:Getting mailbox audit log for luke.skywalker@example.com.
+2018-08-25T11:36:27.4224458-04:00:Saved audit log for luke.skywalker@example.com.
+2018-08-25T11:36:27.4224458-04:00:Removing Member number 299 from PTR list 6
+2018-08-25T11:36:27.4380608-04:00:Member number 299 was removed from PTR list 6
+2018-08-25T11:36:27.4380608-04:00:............. Finished Account Remediation of luke.skywalker .............
+2018-08-25T11:36:27.4380608-04:00:[DISCONNECT] Removing PS-Session with Exchange Online
+2018-08-25T11:36:27.5943172-04:00:[DISCONNECT] Removing PS_Session with Exchange Online Portection (EOP)
+2018-08-25T11:36:27.7193137-04:00:[DISCONNECT] Exiting connection with Azure Active Directory (AAD)
