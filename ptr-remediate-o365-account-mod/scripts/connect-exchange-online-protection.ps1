@@ -1,4 +1,4 @@
-﻿function connect-exchange-online-protection ($Credential) {
+function connect-exchange-online-protection ($Credential) {
 
     # Connecting to Exchange Online
     'Establishing PS-Session with Exchange Online Protection (EOP)' | LogStamp
