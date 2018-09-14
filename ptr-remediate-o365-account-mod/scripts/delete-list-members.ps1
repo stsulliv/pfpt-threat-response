@@ -1,4 +1,4 @@
-﻿function ptr-Delete-List-Members ($ptr_key, $ptr_host, $ptr_list, $member_id) {
+function ptr-Delete-List-Members ($ptr_key, $ptr_host, $ptr_list, $member_id) {
     
     # required to get around Certificate errors
     $AllProtocols = [System.Net.SecurityProtocolType]'Ssl3,Tls,Tls11,Tls12'
