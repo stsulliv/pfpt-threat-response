@@ -1,4 +1,4 @@
-﻿function ptr-Get-Config ($PathRoot) {
+function ptr-Get-Config ($PathRoot) {
     
     if (!([System.IO.File]::Exists("$PathRoot\configuration.xml"))) {
     
