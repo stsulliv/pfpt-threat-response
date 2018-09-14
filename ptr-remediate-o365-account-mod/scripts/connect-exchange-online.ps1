@@ -1,4 +1,4 @@
-﻿function connect-exchange-online ($Credential) {
+function connect-exchange-online ($Credential) {
 
     # Connecting to Exchange Online
     'Establishing PS-Session with Exchange Online' | LogStamp
