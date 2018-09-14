@@ -1,4 +1,4 @@
-﻿function Require-ChangePassword($upn) {
+function Require-ChangePassword($upn) {
     
     'Forcing ' + $upn + ' to change password at next logon.' | LogStamp
     
