@@ -1,4 +1,4 @@
-﻿function ptr-Get-Key ($PathRoot) {
+function ptr-Get-Key ($PathRoot) {
     
     if (!([System.IO.File]::Exists("$PathRoot\threatresponse.cred"))) {
     
