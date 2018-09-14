@@ -1,4 +1,4 @@
-﻿# Import External Scripts
+# Import External Scripts
 . $PSScriptRoot\scripts\get-config.ps1
 . $PSScriptRoot\scripts\get-key.ps1
 . $PSScriptRoot\scripts\get-o365-credentials.ps1
