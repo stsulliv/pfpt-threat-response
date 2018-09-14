@@ -1,4 +1,4 @@
-﻿function ptr-get-o365-credentials ($PathRoot) {
+function ptr-get-o365-credentials ($PathRoot) {
     
     if (!([System.IO.File]::Exists("$PathRoot\password.cred")) -Or !([System.IO.File]::Exists("$PathRoot\account.cred"))) {
     
