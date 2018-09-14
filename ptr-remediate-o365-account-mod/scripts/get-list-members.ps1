@@ -1,4 +1,4 @@
-﻿function ptr-Get-List-Members ($ptr_key,$ptr_host,$ptr_list) {
+function ptr-Get-List-Members ($ptr_key,$ptr_host,$ptr_list) {
 
     # required to get around Certificate errors
     $AllProtocols = [System.Net.SecurityProtocolType]'Ssl3,Tls,Tls11,Tls12'
