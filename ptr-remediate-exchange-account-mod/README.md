@@ -22,7 +22,7 @@ Available Remediation(s)
 - Disable external email forwarding rules
 - Delete external forwarding rules
 - Remove Delegates (see Security Gaps below)
-- (Coming Soon) Outlook Folder permissions remediation (see Security Gaps below)
+- Outlook Folder permissions remediation (see Security Gaps below)
 
 Security Gaps
 ---
